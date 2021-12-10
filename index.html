@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Project 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <h1><img src="./assets/phase 1 title card.png" alt=""></h1>    <!--Changed H1 to an img-->
+    </div>
+    <div id="character-bar">
+    </div>
+    <div class="char-viewer" id="character-viewer">
+      <button id="viewer-close">X</button>
+      <img id="image">
+      <span class="char-viewer" id="viewer-bio">
+        <p id="name"></p>
+        <p id="alias"></p>
+        <p id="birthday"></p>
+        <p id="occupation"></p>
+        <p id="status"></p>
+        <p id="category"></p>
+        <p id="portrayed"></p>
+      </span>
+
+      <span class= "comment-viewer" id="comment-viewer">
+        <form id="comment-form" method="post">
+          <input type="text" id="username" placeholder="Your Name" required>
+          <input type="comment" id="comment" placeholder="Comment" required>
+          <input type='submit' id='comment' value ='Submit'>
+        </form>
+        <table class="comment-viewer" id="comments">
+          <thead class="comment-viewer">
+            <tr><th><u><strong>Discussion:</strong></u></th></tr>
+          </thead>
+          <tbody class="comment-viewer" id="discussion">
+          </tbody>
+        </table>
+      </span>
+
+      <p class="comment-drawer" id="comment-drawer">Open Discussion >></p>
+        
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
